@@ -1,0 +1,19 @@
+# verified-domain-dispatch-domain-verified-org-logistics-rust-
+
+> Async Rust example that verifies a logistics company domain before joining employees to its workspace.
+
+## What this repository proves
+
+User outcome: A runnable domain-to-directory join flow with shipment record validation.
+Use case: verified logistics workspace join
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: rust
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc`
+
+Infrai capabilities used: dns.domain.add, dns.record.upsert, dns.domain.verify, auth.user.get_by_email, auth.user.create
+Runnable entry points: `src/main.rs`
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

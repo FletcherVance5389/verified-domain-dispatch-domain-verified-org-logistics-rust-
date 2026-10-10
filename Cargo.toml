@@ -1,0 +1,9 @@
+[package]
+name = "verified-domain-dispatch"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Join logistics employees to a workspace after DNS ownership verification"
+
+[dependencies]
+
